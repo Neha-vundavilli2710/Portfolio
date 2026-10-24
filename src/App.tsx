@@ -281,9 +281,20 @@ function App() {
       return
     }
     setFormError('')
-    const subject = encodeURIComponent(String(data.get('subject')))
-    const body = encodeURIComponent(`From: ${data.get('name')} (${email})\n\n${data.get('message')}`)
-    window.location.href = `mailto:nehavundavilli27@gmail.com?subject=${subject}&body=${body}`
+    
+const subject = encodeURIComponent(String(data.get('subject')))
+const body = encodeURIComponent(
+  `From: ${data.get('name')} (${email})\n\n${data.get('message')}`
+)
+
+const gmailUrl =
+  `https://mail.google.com/mail/?view=cm&fs=1` +
+  `&to=${encodeURIComponent('nehavundavilli27@gmail.com')}` +
+  `&su=${subject}` +
+  `&body=${body}`
+
+window.open(gmailUrl, '_blank', 'noopener,noreferrer')
+
   }
 
   return (
