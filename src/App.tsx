@@ -149,7 +149,7 @@ const projects: Project[] = [
     contribution: 'As the individual Full-Stack Developer, I implemented the application interface, API integration, backend workflows, persistence, calculations and rule-based recommendations.',
     highlights: ['Nutrition values are estimates from application data.', 'BMI history supports longitudinal review.', 'No trained ML model, LLM or external nutrition AI API is claimed.'],
     repo: 'https://github.com/Neha-vundavilli2710/Nutrition-Assistant',
-    video: 'https://drive.google.com/file/d/1Rg6TE4r_yKqaPEFDTgaISnFO464SmEt-/view?usp=sharing',
+    video: 'https://drive.google.com/file/d/1_MIeElE4gXEwWfmS955anvXjxQRFfsPl/view?usp=sharing',
   },
   {
     name: 'Restaurant RMS',
