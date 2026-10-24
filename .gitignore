@@ -1,0 +1,26 @@
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Cache and temporary files
+.cache/
+.vite/
+.tmp-*
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+*-debug.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
