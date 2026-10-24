@@ -306,7 +306,9 @@ window.open(gmailUrl, '_blank', 'noopener,noreferrer')
         </nav>
         <div className="side-status"><span className="eyebrow">OPEN TO OPPORTUNITIES</span><strong>Software · Full Stack · AI/ML</strong><small>Internship & fresher roles</small></div>
         <div className="profile"><span className="avatar">NV</span><div><strong>Neha Vundavilli</strong><small>Software Developer<br />India</small></div></div>
-        <div className="side-links"><a href="https://github.com/Neha-vundavilli2710" target="_blank" rel="noopener noreferrer">GH</a><a href="https://www.linkedin.com/in/neha-vundavilli" target="_blank" rel="noopener noreferrer">in</a><a href="mailto:nehavundavilli27@gmail.com">@</a></div>
+        
+        <div className="side-links"><a href="https://github.com/Neha-vundavilli2710" target="_blank" rel="noopener noreferrer">GH</a><a href="https://www.linkedin.com/in/neha-vundavilli" target="_blank" rel="noopener noreferrer">in</a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=nehavundavilli27%40gmail.com" target="_blank" rel="noopener noreferrer">@</a></div>
+
         <a className="resume-side" href={resumeUrl} target="_blank" rel="noopener noreferrer">View Resume <Icon name="external" /></a>
       </aside>
 
@@ -406,7 +408,9 @@ window.open(gmailUrl, '_blank', 'noopener,noreferrer')
               <h3>Let’s connect</h3>
               <p className="large-copy">Have a project, idea or opportunity? I’d love to hear from you.</p>
               <div className="contact-links">
-                <a href="mailto:nehavundavilli27@gmail.com"><b>Email</b><span>nehavundavilli27@gmail.com</span></a>
+                
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nehavundavilli27%40gmail.com" target="_blank" rel="noopener noreferrer"><b>Email</b><span>nehavundavilli27@gmail.com</span></a>
+
                 <a href="https://www.linkedin.com/in/neha-vundavilli" target="_blank" rel="noopener noreferrer"><b>LinkedIn</b><span>/in/neha-vundavilli</span></a>
                 <a href="https://github.com/Neha-vundavilli2710" target="_blank" rel="noopener noreferrer"><b>GitHub</b><span>@Neha-vundavilli2710</span></a>
                 <a href={resumeUrl} target="_blank" rel="noopener noreferrer"><b>Resume</b><span>Open attached PDF</span></a>
